@@ -1,0 +1,28 @@
+name: Sugestão para um capítulo
+description: Revisão, correção ou comentário sobre um trecho de um livro
+labels: [sugestão]
+body:
+  - type: input
+    id: trecho
+    attributes:
+      label: Trecho
+      description: Copie a frase ou indique a seção a que a sugestão se refere
+    validations:
+      required: true
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Proposta
+      description: Como ficaria o texto, ou o que deveria mudar
+    validations:
+      required: true
+  - type: textarea
+    id: justificativa
+    attributes:
+      label: Justificativa
+      description: Por que a mudança melhora o texto (fontes, se houver)
+  - type: input
+    id: credito
+    attributes:
+      label: Nome para os créditos
+      description: Como você quer aparecer na lista de contribuidores

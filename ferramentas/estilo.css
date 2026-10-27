@@ -1,0 +1,63 @@
+:root {
+  --fundo: #f6f2ea;
+  --papel: #fffdf8;
+  --tinta: #1f1b16;
+  --suave: #6b6257;
+  --linha: #e2d9cb;
+  --acento: #9a4a1f;
+  --acento-2: #2f5d50;
+  --serif: "Source Serif 4", Georgia, serif;
+  --sans: "Inter", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fundo: #15130f; --papel: #1d1a15; --tinta: #ece5d8; --suave: #a59b8c;
+    --linha: #332e26; --acento: #e08a55; --acento-2: #7fb8a5;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--fundo); color: var(--tinta); font-family: var(--serif); font-size: 1.125rem; line-height: 1.65; }
+a { color: var(--acento); }
+.topo { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .5rem 1.5rem;
+  padding: 1rem clamp(1rem, 4vw, 3rem); border-bottom: 1px solid var(--linha); font-family: var(--sans); font-size: .95rem; }
+.marca { font-family: var(--serif); font-weight: 600; font-size: 1.4rem; color: var(--tinta); text-decoration: none; letter-spacing: .02em; }
+.topo nav { display: flex; gap: 1.2rem; flex-wrap: wrap; }
+.topo nav a { color: var(--suave); text-decoration: none; }
+.topo nav a:hover { color: var(--acento); }
+main { max-width: 46rem; margin: 0 auto; padding: 2rem 1rem 4rem; }
+h1, h2, h3 { line-height: 1.2; font-weight: 600; }
+h2 { margin-top: 2.5rem; }
+.abertura h1 { font-size: clamp(2.6rem, 8vw, 4rem); margin: 1rem 0 .5rem; }
+.lema { font-size: 1.3rem; color: var(--suave); font-style: italic; }
+.grade { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); }
+.cartao { display: block; background: var(--papel); border: 1px solid var(--linha); border-left: 6px solid var(--acento);
+  padding: 1.25rem 1.25rem 1rem; text-decoration: none; color: var(--tinta); border-radius: 4px; transition: transform .15s; }
+.cartao:hover { transform: translateY(-2px); }
+.cartao h3 { margin: .3rem 0; font-size: 1.5rem; }
+.selo { font-family: var(--sans); font-size: .75rem; text-transform: uppercase; letter-spacing: .08em; color: var(--acento-2); margin: 0; }
+.subtitulo { font-style: italic; color: var(--suave); margin: .2rem 0; }
+.autor { font-family: var(--sans); font-size: .9rem; color: var(--suave); }
+.capa h1 { font-size: clamp(2.2rem, 7vw, 3.4rem); margin: .4rem 0; }
+.descricao { margin-top: 1rem; }
+.acoes { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1.5rem 0; font-family: var(--sans); }
+.botao { display: inline-block; padding: .55rem 1rem; border-radius: 999px; background: var(--acento); color: #fff;
+  text-decoration: none; font-size: .9rem; font-weight: 500; border: 1px solid var(--acento); }
+.botao.secundario { background: transparent; color: var(--acento); }
+.botao.apoio { background: var(--acento-2); border-color: var(--acento-2); }
+.botao.desativado { opacity: .55; cursor: default; }
+.nota { font-family: var(--sans); font-size: .85rem; color: var(--suave); }
+.capitulos { list-style: none; padding: 0; counter-reset: c; }
+.capitulos li { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; padding: .7rem 0; border-bottom: 1px solid var(--linha); }
+.capitulos li > a { color: var(--tinta); text-decoration: none; }
+.capitulos li > a:hover { color: var(--acento); }
+.meta { font-family: var(--sans); font-size: .8rem; color: var(--suave); white-space: nowrap; }
+.trilha { font-family: var(--sans); font-size: .85rem; margin: 0; }
+.texto blockquote { margin: 1.5rem 0; padding: 1rem 1.25rem; background: var(--papel); border-left: 4px solid var(--acento-2); }
+.texto table { width: 100%; border-collapse: collapse; font-size: .9rem; display: block; overflow-x: auto; }
+.texto td, .texto th { border-bottom: 1px solid var(--linha); padding: .4rem .5rem; vertical-align: top; text-align: left; }
+.texto img { max-width: 100%; }
+.paginacao { display: flex; justify-content: space-between; gap: 1rem; margin: 3rem 0 1rem; font-family: var(--sans); font-size: .95rem; }
+.historico { border-top: 2px solid var(--linha); margin-top: 2rem; }
+.historico ol { padding-left: 1.2rem; font-family: var(--sans); font-size: .9rem; }
+.historico time { color: var(--suave); }
+.rodape { border-top: 1px solid var(--linha); padding: 1.5rem 1rem; text-align: center; font-family: var(--sans); font-size: .8rem; color: var(--suave); }
