@@ -14,12 +14,18 @@ concurrency:
 jobs:
   construir:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Instalar pandoc e LaTeX
-        run: sudo apt-get update && sudo apt-get install -y pandoc texlive-xetex texlive-lang-portuguese fonts-texgyre
+        run: |
+          # o gatilho do man-db deixa a instalação muito lenta nos servidores do GitHub
+          echo 'set man-db/auto-update false' | sudo debconf-communicate >/dev/null
+          sudo dpkg-reconfigure man-db
+          sudo apt-get update -q
+          sudo apt-get install -y -q pandoc texlive-xetex texlive-latex-recommended texlive-lang-portuguese fonts-texgyre
       - name: Gerar PDFs
         run: ./ferramentas/gerar-pdfs.sh
       - name: Construir site
