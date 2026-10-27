@@ -1,0 +1,14 @@
+pdf-engine: xelatex
+variables:
+  lang: pt-BR
+  fontfamily: fontspec
+  documentclass: book
+  classoption: [oneside, openany]
+  papersize: a5
+  geometry: [margin=2cm]
+  mainfont: TeX Gyre Pagella
+  fontsize: 10pt
+  linestretch: 1.15
+  colorlinks: true
+  linkcolor: black
+  urlcolor: teal
