@@ -11,6 +11,7 @@ SAIDA = RAIZ / "_site"
 REPO = os.environ.get("GITHUB_REPOSITORY", "rotekh/rotekh")
 GH = f"https://github.com/{REPO}"
 EDITORA = "Rotékh"
+SLOGAN = "Movimento que vira memória."
 
 
 def ler_yaml(p):
@@ -66,7 +67,7 @@ def pagina(titulo, corpo, prof=0, descricao=""):
 </head>
 <body>
 <header class="topo"><a class="marca" href="{base}index.html">{EDITORA}</a>
-<nav><a href="{base}index.html">Livros</a><a href="{base}como-contribuir.html">Como contribuir</a><a href="{GH}">Repositório</a></nav></header>
+<nav><a href="{base}index.html">Livros</a><a href="{base}quem-somos.html">Quem somos</a><a href="{base}como-contribuir.html">Como contribuir</a><a href="{GH}">Repositório</a></nav></header>
 <main>
 {corpo}
 </main>
@@ -172,17 +173,22 @@ def construir():
     inicio = f"""
 <section class="abertura">
 <h1>{EDITORA}</h1>
+<p class="slogan">{SLOGAN}</p>
 <p class="lema">Proto-editora aberta. Livros escritos em público, capítulo por capítulo, com revisões de leitores registradas para sempre.</p>
 </section>
 <section>
 <h2>Livros</h2>
 <div class="grade">{''.join(cartoes)}</div>
 </section>"""
-    (SAIDA / "index.html").write_text(pagina(EDITORA, inicio), encoding="utf-8")
+    (SAIDA / "index.html").write_text(pagina(f"{EDITORA} · {SLOGAN}", inicio, descricao=SLOGAN), encoding="utf-8")
 
     contrib = RAIZ / "CONTRIBUINDO.md"
     (SAIDA / "como-contribuir.html").write_text(
         pagina(f"Como contribuir · {EDITORA}", f'<article class="texto">{md_para_html(contrib)}</article>'),
+        encoding="utf-8")
+    quem = RAIZ / "QUEM-SOMOS.md"
+    (SAIDA / "quem-somos.html").write_text(
+        pagina(f"Quem somos · {EDITORA}", f'<article class="texto">{md_para_html(quem)}</article>', descricao=SLOGAN),
         encoding="utf-8")
     (SAIDA / ".nojekyll").write_text("")
     print("site gerado em", SAIDA)
