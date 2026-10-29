@@ -12,6 +12,7 @@ REPO = os.environ.get("GITHUB_REPOSITORY", "rotekh/rotekh")
 GH = f"https://github.com/{REPO}"
 EDITORA = "Rotékh"
 SLOGAN = "Movimento que vira memória."
+GOOGLE_TAG = "AW-18544181096"  # Google Ads; deixe vazio para desligar
 
 
 def ler_yaml(p):
@@ -52,6 +53,19 @@ def historico(p):
     return itens
 
 
+def tag_google():
+    if not GOOGLE_TAG:
+        return ""
+    return f"""<script async src="https://www.googletagmanager.com/gtag/js?id={GOOGLE_TAG}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+  gtag('config', '{GOOGLE_TAG}');
+</script>
+"""
+
+
 def pagina(titulo, corpo, prof=0, descricao=""):
     base = "../" * prof
     return f"""<!doctype html>
@@ -64,7 +78,7 @@ def pagina(titulo, corpo, prof=0, descricao=""):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="{base}estilo.css">
-</head>
+{tag_google()}</head>
 <body>
 <header class="topo"><a class="marca" href="{base}index.html">{EDITORA}</a>
 <nav><a href="{base}index.html">Livros</a><a href="{base}quem-somos.html">Quem somos</a><a href="{base}como-contribuir.html">Como contribuir</a><a href="{GH}">Repositório</a></nav></header>
