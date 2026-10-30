@@ -81,7 +81,7 @@ def pagina(titulo, corpo, prof=0, descricao=""):
 {tag_google()}</head>
 <body>
 <header class="topo"><a class="marca" href="{base}index.html">{EDITORA}</a>
-<nav><a href="{base}index.html">Livros</a><a href="{base}quem-somos.html">Quem somos</a><a href="{base}como-contribuir.html">Como contribuir</a><a href="{GH}">Repositório</a></nav></header>
+<nav><a href="{base}index.html">Livros</a><a href="{base}quem-somos.html">Quem somos</a><a href="{base}como-contribuir.html">Como contribuir</a><a href="{base}contato.html">Contato</a><a href="{GH}">Repositório</a></nav></header>
 <main>
 {corpo}
 </main>
@@ -203,6 +203,10 @@ def construir():
     quem = RAIZ / "QUEM-SOMOS.md"
     (SAIDA / "quem-somos.html").write_text(
         pagina(f"Quem somos · {EDITORA}", f'<article class="texto">{md_para_html(quem)}</article>', descricao=SLOGAN),
+        encoding="utf-8")
+    contato = RAIZ / "CONTATO.md"
+    (SAIDA / "contato.html").write_text(
+        pagina(f"Contato · {EDITORA}", f'<article class="texto">{md_para_html(contato)}</article>'),
         encoding="utf-8")
     (SAIDA / ".nojekyll").write_text("")
     print("site gerado em", SAIDA)
