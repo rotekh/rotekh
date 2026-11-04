@@ -92,9 +92,55 @@ def pagina(titulo, corpo, prof=0, descricao=""):
 
 def botao_apoio(meta, prof):
     url = meta.get("crowdfunding", "")
+    rotulo = html.escape(meta.get("rotulo_apoio", "") or "Apoiar este livro")
     if url:
-        return f'<a class="botao apoio" href="{html.escape(url)}">Apoiar este livro</a>'
-    return '<span class="botao apoio desativado" title="Campanha em preparação">Apoiar este livro · em breve</span>'
+        return f'<a class="botao apoio" href="{html.escape(url)}">{rotulo}</a>'
+    return f'<span class="botao apoio desativado" aria-disabled="true" title="Campanha em preparação">{rotulo} · em breve</span>'
+
+
+def secao_mandala(pasta, dest):
+    svg = pasta / "mandala.svg"
+    if not svg.exists():
+        return ""
+    shutil.copy(svg, dest / "mandala.svg")
+    return """
+<section class="mandala-secao">
+<h2>Resumo gráfico</h2>
+<div id="mandala" class="mandala" role="img" aria-label="Resumo gráfico da Teoria Geral dos Ciclos, girando"><p class="nota">Carregando o resumo gráfico…</p></div>
+<div class="acoes controles-mandala">
+  <button type="button" class="botao secundario" id="m-lento">Mais lento</button>
+  <button type="button" class="botao" id="m-pausa">Pausar</button>
+  <button type="button" class="botao secundario" id="m-rapido">Mais rápido</button>
+  <span class="nota" id="m-vel">velocidade 1×</span>
+</div>
+</section>
+<script>
+(function () {
+  var caixa = document.getElementById('mandala');
+  fetch('mandala.svg').then(function (r) { return r.text(); }).then(function (texto) {
+    caixa.innerHTML = texto;
+    var svg = caixa.querySelector('svg');
+    if (!svg || !svg.pauseAnimations) return;
+    svg.removeAttribute('width'); svg.removeAttribute('height');
+    svg.pauseAnimations();
+    var reduzir = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var velocidade = 1, girando = !reduzir, tempo = 0, antes = performance.now();
+    var bPausa = document.getElementById('m-pausa'), rotulo = document.getElementById('m-vel');
+    function mostrar() {
+      bPausa.textContent = girando ? 'Pausar' : 'Continuar';
+      rotulo.textContent = 'velocidade ' + (velocidade < 1 ? velocidade.toFixed(velocidade < 0.25 ? 3 : 2).replace(/0+$/, '') : velocidade) + '×';
+    }
+    function quadro(agora) {
+      if (girando) { tempo += (agora - antes) / 1000 * velocidade; svg.setCurrentTime(tempo); }
+      antes = agora; requestAnimationFrame(quadro);
+    }
+    bPausa.onclick = function () { girando = !girando; mostrar(); };
+    document.getElementById('m-lento').onclick = function () { velocidade = Math.max(0.125, velocidade / 2); mostrar(); };
+    document.getElementById('m-rapido').onclick = function () { velocidade = Math.min(16, velocidade * 2); mostrar(); };
+    mostrar(); requestAnimationFrame(quadro);
+  });
+})();
+</script>"""
 
 
 def construir():
@@ -165,6 +211,7 @@ def construir():
   <p class="subtitulo">{html.escape(meta.get('subtitulo', ''))}</p>
   <p class="autor">{html.escape(meta.get('autor', ''))}</p>
   <p class="descricao">{html.escape(meta.get('descricao', ''))}</p>
+  {f'<p class="aviso">{html.escape(meta["aviso"])}</p>' if meta.get("aviso") else ""}
   <div class="acoes">
     <a class="botao" href="../pdf/{id_}/{id_}-completo.pdf">Baixar livro completo</a>
     {botao_apoio(meta, 1)}
@@ -175,11 +222,11 @@ def construir():
 <h2>Capítulos</h2>
 <p class="nota">Cada capítulo pode receber revisões e edições. O livro completo é sempre montado com a última versão aprovada de cada capítulo.</p>
 <ol class="capitulos">{''.join(linhas)}</ol>
-</section>"""
+</section>{secao_mandala(pasta, dest)}"""
         (dest / "index.html").write_text(
             pagina(meta.get("titulo", id_), corpo_livro, 1, meta.get("descricao", "")), encoding="utf-8")
         cartoes.append(f"""<a class="cartao" href="{id_}/index.html">
-<span class="selo">v{html.escape(meta.get('versao', ''))}</span>
+<span class="selo">v{html.escape(meta.get('versao', ''))}{' · em construção' if meta.get('aviso') else ''}</span>
 <h3>{html.escape(meta.get('titulo', id_))}</h3>
 <p class="subtitulo">{html.escape(meta.get('subtitulo', ''))}</p>
 <p class="autor">{html.escape(meta.get('autor', ''))} · {len(caps)} partes</p></a>""")
