@@ -1,10 +1,10 @@
 ---
 parte: "artigo"
-numero: "9"
-ordem: "10"
+numero: "8"
+ordem: "09"
 ---
 
-# Artigo 9. Tendências futuras do Ciclo-Terra
+# Artigo 8. Tendências futuras do Ciclo-Terra
 
 *Horizontes de complexificação-simplificação*
 
@@ -15,8 +15,6 @@ Felipe Mattos Tavares
 O futuro não é previsão única. É um campo de estados condicionado pelas capacidades e pelos registros do presente. Este artigo lê as tendências do Ciclo-Terra pelas seis funções da Teoria Geral dos Ciclos. O suporte é a energia, a infraestrutura, os ecossistemas e as instituições; as causas são sete tendências estruturantes, algorítmica, energética, climática, biológica, de conectividade, demográfica e espacial; os efeitos se distribuem em três horizontes, o próximo, de 2026 a 2035, o planetário, de 2035 a 2100, e o geológico-humano, depois de 2100; o registro é o conjunto de vestígios tecnogênicos e o estoque de conhecimento, medido como vetor; o transporte é a mistura entre ciclos e a extensão do registro terrestre ao espaço; o retorno mais forte é o clima, que devolve às sociedades, em eventos físicos, o registro atmosférico de suas escolhas energéticas.
 
 Prever, na teoria, significa comparar cenários condicionais. Quais interações alteram capacidades, quais registros persistem, quais perdas se acumulam e que observações mudariam o diagnóstico. Toda previsão é situada, datada e revisável. O artigo propõe quatro regimes possíveis, um conjunto de indicadores e sete princípios de sobrevivência.
-
-SUPORTE · CAUSA · EFEITO · REGISTRO · TRANSPORTE · RETORNO
 
 ## Prólogo
 

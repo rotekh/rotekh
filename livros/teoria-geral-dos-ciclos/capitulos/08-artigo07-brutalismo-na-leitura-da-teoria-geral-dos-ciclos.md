@@ -1,10 +1,10 @@
 ---
 parte: "artigo"
-numero: "8"
-ordem: "09"
+numero: "7"
+ordem: "08"
 ---
 
-# Artigo 8. Brutalismo na leitura da Teoria Geral dos Ciclos
+# Artigo 7. Brutalismo na leitura da Teoria Geral dos Ciclos
 
 *Foucault, Mbembe e a produção-demolição do mundo*
 
@@ -15,8 +15,6 @@ Felipe Mattos Tavares
 Achille Mbembe toma do brutalismo arquitetônico uma imagem de peso, exposição material e esmagamento e desloca o termo para uma condição histórica, a simultaneidade entre produção e demolição em escala planetária. Extrair, fraturar, calcular, fabricar, descartar e converter seres vivos e meios em matéria disponível. Lido pelas seis funções da Teoria Geral dos Ciclos, o brutalismo tem como suporte assimetrias de força incorporadas em normas, mercados, infraestruturas e dispositivos de saber; como causa, a força assimétrica que impõe perda; como efeito, a perda de integridade, acesso, executabilidade, autonomia ou generatividade, acompanhada de produção de novas formas; como registro, a fácies brutal; como transporte, os arquivos, as classificações e os cálculos que levam o recorte brutal a outros corpos e tempos; como retorno, a fratura que vira suporte da própria repetição, ou, no caminho inverso, a reparação.
 
 A teoria acrescenta a Foucault e Mbembe um protocolo. Localizar causas, suportes, perdas, distribuições e registros, separar brutalização de erosão e orientar o reprocessamento para a reparação. Sem essas relações, brutalização vira apenas sinônimo moral de mudança indesejada. O caso de Carajás, no sudeste do Pará, percorre as seis funções como exemplo brasileiro.
-
-SUPORTE · CAUSA · EFEITO · REGISTRO · TRANSPORTE · RETORNO
 
 ## Prólogo
 
@@ -126,7 +124,7 @@ Uma língua pode perder falantes por dispersão demográfica sem coerção ident
 
 A Província Mineral de Carajás, no sudeste do Pará, é o exemplo brasileiro mais completo de ciclo de produção-demolição, e o autor a conhece como geólogo de campo. A leitura abaixo percorre as seis funções sem pretender esgotar a história da região.
 
-**Suporte.** A formação ferrífera de cerca de 2,7 bilhões de anos guarda um dos maiores depósitos de minério de ferro de alto teor do planeta, ao lado de cobre, níquel, manganês e ouro. Sobre ela cresceram a floresta, as cangas com seus campos rupestres ferruginosos e espécies que só existem ali, e cavernas com registros de ocupação humana de milhares de anos. O suporte do brutalismo, porém, não é a rocha. É o arranjo que decidiu quem poderia usá-la. O ferro foi descoberto em 1967 por geólogos a serviço de uma empresa estrangeira, e em 1980 o governo federal lançou o Programa Grande Carajás, que reuniu mina, ferrovia, porto, energia, polos de ferro-gusa e incentivos fiscais num mesmo plano, decidido longe da região.
+**Suporte.** A formação ferrífera de cerca de 2,7 bilhões de anos guarda um dos maiores depósitos de minério de ferro de alto teor do planeta, ao lado de cobre, níquel, manganês e ouro. O artigo A válvula de Carajás, neste livro, descreve como parte desse metal foi concentrada. Sobre ela cresceram a floresta, as cangas com seus campos rupestres ferruginosos e espécies que só existem ali, e cavernas com registros de ocupação humana de milhares de anos. O suporte do brutalismo, porém, não é a rocha. É o arranjo que decidiu quem poderia usá-la. O ferro foi descoberto em 1967 por geólogos a serviço de uma empresa estrangeira, e em 1980 o governo federal lançou o Programa Grande Carajás, que reuniu mina, ferrovia, porto, energia, polos de ferro-gusa e incentivos fiscais num mesmo plano, decidido longe da região.
 
 **Causa.** A causa foi a decisão de converter a província em corredor de exportação. A Estrada de Ferro Carajás, com cerca de 890 quilômetros até São Luís, opera desde 1985. A abertura de minas, estradas e linhas atraiu centenas de milhares de pessoas para uma fronteira sem regularização fundiária, onde quem chegava primeiro com título valia mais do que quem já estava.
 

@@ -1,6 +1,6 @@
 ---
 parte: "pós-textual"
-ordem: "11"
+ordem: "10"
 ---
 
 # Epílogo. Depois da última volta
@@ -13,7 +13,7 @@ A eternidade não é imobilidade. É a capacidade de uma diferença mudar de sup
 
 ## Síntese
 
-A Teoria Geral dos Ciclos lê processos de qualquer escala por seis funções, suporte, causa, efeito, registro, transporte e retorno. Uma diferença, sob condições declaradas, altera a distribuição dos estados seguintes; se persiste, é registro; se atravessa um meio, é transportada; se volta a agir, fecha um ciclo. Elo, ciclo aberto, ciclo fechado, encadeamento, encadeamento cumulativo e rede são graus que precisam ser demonstrados, não propriedades automáticas. O infinitésimo é a menor diferença reconhecível na resolução escolhida; fragmentos e agregados dizem quanto precisa permanecer unido para que um registro viaje. A Metodologia Rotékh exige recorte, observáveis, teste de remoção e condição de falha, e separa causalidade de implicação formal, mecanismo de técnica, erosão de brutalização. Ao longo deste livro, as mesmas perguntas foram feitas a geometrias, números, pixels primordiais, átomos, buracos negros, primeiras palavras, pessoas, violências e futuros. Em cada recorte o ciclo fechou de um jeito, e em alguns não fechou. A formação de consequências acompanha a interação; sua preservação e seu valor dependem do meio, dos observadores e das capacidades de leitura e de resposta.
+A Teoria Geral dos Ciclos lê processos de qualquer escala por seis funções, suporte, causa, efeito, registro, transporte e retorno. Uma diferença, sob condições declaradas, altera a distribuição dos estados seguintes; se persiste, é registro; se atravessa um meio, é transportada; se volta a agir, fecha um ciclo. Elo, ciclo aberto, ciclo fechado, encadeamento, encadeamento cumulativo e rede são graus que precisam ser demonstrados, não propriedades automáticas. O infinitésimo é a menor diferença reconhecível na resolução escolhida; fragmentos e agregados dizem quanto precisa permanecer unido para que um registro viaje. A Metodologia Rotékh exige recorte, observáveis, teste de remoção e condição de falha, e separa causalidade de implicação formal, mecanismo de técnica, erosão de brutalização. Ao longo deste livro, as mesmas perguntas foram feitas a geometrias, números, pixels primordiais, um sistema mineral de Carajás, primeiras palavras, pessoas, violências e futuros. Em cada recorte o ciclo fechou de um jeito, e em alguns não fechou. A formação de consequências acompanha a interação; sua preservação e seu valor dependem do meio, dos observadores e das capacidades de leitura e de resposta.
 
 Depois da última volta, nada regressa ao lugar de onde saiu. O lugar aprendeu a passagem. A pedra recebeu o peso, o caminho recebeu o passo, o corpo recebeu o tempo, e cada um guardou uma forma diferente daquilo que aconteceu.
 

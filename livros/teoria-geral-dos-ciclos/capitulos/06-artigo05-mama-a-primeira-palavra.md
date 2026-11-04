@@ -1,24 +1,20 @@
 ---
 parte: "artigo"
-numero: "6"
-ordem: "07"
+numero: "5"
+ordem: "06"
 ---
 
-# Artigo 6. Mama, a primeira palavra
-
-*Suporte, causa, efeito, registro, transporte e retorno*
-
-Felipe Mattos Tavares
+# Artigo 5. Mama, a primeira palavra
 
 *A menor unidade da cultura humana é um som que sobrevive à sua causa.*
 
+Felipe Mattos Tavares
+
 ## Resumo
 
-A menor unidade da cultura humana é um som que sobrevive à sua causa. Este artigo lê a primeira palavra, “mama”, pelas seis funções da Teoria Geral dos Ciclos. O suporte é a boca, o ar e, sobretudo, quem cuida; a causa é o seio, a diferença que produz o som antes de qualquer intenção; o efeito é o som, que vira palavra quando continua a ser dito na ausência do que o produziu; o registro é o som guardado e dito depois, e o círculo que sobrevive ao gesto; o transporte é a mãe ouvindo de longe, a troca do gesto pela voz como meio; o retorno é a causa seguinte, o registro que sobrevive ao autor e volta como condição da diferença de outro.
+Este artigo lê a primeira palavra, “mama”, pelas seis funções da Teoria Geral dos Ciclos. O suporte é a boca, o ar e, sobretudo, quem cuida; a causa é o seio, a diferença que produz o som antes de qualquer intenção; o efeito é o som, que vira palavra quando continua a ser dito na ausência do que o produziu; o registro é o som guardado e dito depois, e o círculo que sobrevive ao gesto; o transporte é a mãe ouvindo de longe, a troca do gesto pela voz como meio; o retorno é a causa seguinte, o registro que sobrevive ao autor e volta como condição da diferença de outro.
 
 O argumento central é que o gargalo humano nunca foi a diferença, presente nos primatas, e sim a retenção a partir de um limiar que depende de um suporte com nome, o cuidado compartilhado, e de um contingente populacional mínimo. A forma da palavra para o ciclo é previsível, redonda, vibrante e repetida. A mesma operação, reter o diferente, foi feita entre nós antes de ser feita com os lobos e com o trigo. Três medições estão declaradas como pendentes, e cada seção diz o que a derrubaria.
-
-SUPORTE · CAUSA · EFEITO · REGISTRO · TRANSPORTE · RETORNO
 
 ## Prólogo
 

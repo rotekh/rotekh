@@ -16,8 +16,6 @@ A forma não está apenas no objeto. Está na relação que decide distância, d
 
 Duas hipóteses fortes são examinadas. A primeira afirma que o hipercilindro é uma hiperesfera levada ao extremo, obtida quando uma direção deixa de participar da medida. A segunda afirma que a totalidade das relações efetivas forma uma hiperesfera relacional, a hiperesfera-Universo. A Metodologia Rotékh separa o estatuto ontológico, matemático e físico de cada afirmação e distingue duas ligações que a prática costuma misturar, a consequência lógica entre axiomas e teoremas e a causalidade material entre inscrições, pessoas, máquinas e decisões.
 
-SUPORTE · CAUSA · EFEITO · REGISTRO · TRANSPORTE · RETORNO
-
 ## Prólogo
 
 As parábolas abaixo não dizem nada. Mas permitem visualizar.

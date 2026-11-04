@@ -1,10 +1,10 @@
 ---
 parte: "artigo"
-numero: "7"
-ordem: "08"
+numero: "6"
+ordem: "07"
 ---
 
-# Artigo 7. O ser humano na leitura da Teoria Geral dos Ciclos
+# Artigo 6. O ser humano na leitura da Teoria Geral dos Ciclos
 
 *Corpo, memória e meio em interação contínua*
 
@@ -15,8 +15,6 @@ Felipe Mattos Tavares
 O ser humano é reconhecível como unidade, mas não é simples nem fechado. É um recorte estável o bastante para ter nome, memória, responsabilidade e história; por dentro, é uma articulação de átomos, moléculas, células, órgãos, microrganismos, impulsos, imagens, palavras e hábitos; por fora, depende de ar, alimento, cuidado, linguagem, ferramentas, outras pessoas e ecossistemas. Lido pelas seis funções da Teoria Geral dos Ciclos, ele tem como suporte o corpo e o meio que o atravessa; como causa, as diferenças corporais e ambientais que chegam pelos sentidos e pelo cuidado; como efeito, a ação, a regulação e a aprendizagem; como registro, o corpo que deposita tempo e a memória que se reconstrói; como transporte, a linguagem, o ensino e as técnicas que exteriorizam estados internos; como retorno, o que cada pessoa devolve ao mundo e o que continua agindo depois de sua morte.
 
 A pessoa é uma rede de ciclos em várias escalas, do atômico ao ecológico. Ela simplifica a multiplicidade num eu operável e a complexifica de novo em gesto, vínculo e mundo. Sua classificação como rede, no sentido da teoria, depende da coordenação demonstrável desses processos, não apenas da enumeração de escalas.
-
-SUPORTE · CAUSA · EFEITO · REGISTRO · TRANSPORTE · RETORNO
 
 ## Prólogo
 

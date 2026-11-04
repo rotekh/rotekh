@@ -138,7 +138,7 @@ Nessa formulação, nada criou a Marca-zero. “Nada” não é agente: indica q
 
 Ponto, linha, círculo, esfera e hiperesfera formam um transporte matemático entre números de dimensões. A teoria pode representar a totalidade como hiperesfera-Universo: o fechamento, sob métrica própria, de n eixos relacionais. Isso é uma hipótese formal, não a contagem já demonstrada das dimensões físicas do cosmos. Seu conteúdo aumenta somente quando n, a métrica, as relações preservadas e os observáveis são definidos. Sem essa passagem, hiperesfera é imagem; com ela, pode tornar-se modelo.
 
-## Apoio D, parte 1. Metodologia Rotékh
+## Apoio D. Metodologia Rotékh
 
 Qualquer conceito extraído de um recorte pode ser proposto em outro porque conceitos registram relações, e relações podem reaparecer em materiais diferentes. Mas a possibilidade de comparação não garante sua validade. Dizer que um átomo, um casamento e uma bacia sedimentar possuem suporte, causa, efeito, registro, transporte e retorno oferece uma gramática comum; ainda falta demonstrar o mecanismo de cada um.
 
@@ -181,8 +181,6 @@ Falha. Qual resultado observável enfraqueceria a formulação, exigiria outro r
 A forma transportável do resultado é: no recorte R, com ganhos e perdas declarados para P, e sob o suporte S, a causa C alterou os estados e produziu o efeito E; a diferença G persistiu como registro, atravessou o meio T e retornou em V como condição de uma nova transformação; a retirada de X mostrou de que o resultado dependia; a conclusão recua se F ocorrer. Se a frase não pode ser preenchida sem palavras vazias, ainda não há demonstração.
 
 R + P + S + C + E + G + T + V + X + F = descrição testável
-
-## Apoio D, parte 2. Graus, limites e valor
 
 ### Graus de realização
 

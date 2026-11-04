@@ -16,8 +16,6 @@ Propõe-se que o estado inicial do universo não tenha sido uma singularidade ge
 
 A essa máquina se associa um sistema operacional natural, uma matriz cíclica de 36 elementos organizada em seis funções e seis planos, meio, quiralidade, algoritmo, interface, dissipação e hierarquia. O primeiro plano é exatamente o das seis funções da teoria geral. Os 36 elementos, percorridos por um relógio interno, reproduzem a contagem do pixel, 36 campos mais o tempo próprio. O modelo faz quatro previsões observacionais, e a última delas, a concordância de sinal entre observáveis quirais de setores diferentes, é própria dele.
 
-SUPORTE · CAUSA · EFEITO · REGISTRO · TRANSPORTE · RETORNO
-
 ## Prólogo
 
 As parábolas abaixo não dizem nada. Mas permitem visualizar.

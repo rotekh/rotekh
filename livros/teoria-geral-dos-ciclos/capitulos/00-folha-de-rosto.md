@@ -5,7 +5,7 @@ ordem: "00"
 
 # Teoria Geral dos Ciclos
 
-Nove artigos sobre suporte, causa, efeito, registro, transporte e retorno
+Oito artigos sobre suporte, causa, efeito, registro, transporte e retorno
 
 Toda interação produz diferença; toda diferença procura uma forma de durar.
 
