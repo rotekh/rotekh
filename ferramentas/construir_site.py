@@ -213,14 +213,14 @@ def construir():
   <p class="descricao">{html.escape(meta.get('descricao', ''))}</p>
   {f'<p class="aviso">{html.escape(meta["aviso"])}</p>' if meta.get("aviso") else ""}
   <div class="acoes">
-    <a class="botao" href="../pdf/{id_}/{id_}-completo.pdf">Baixar livro completo</a>
+    {'' if meta.get('sem_completo') else f'<a class="botao" href="../pdf/{id_}/{id_}-completo.pdf">Baixar livro completo</a>'}
     {botao_apoio(meta, 1)}
     <a class="botao secundario" href="{versoes}">Edições anteriores</a>
   </div>
 </section>
 <section>
 <h2>Capítulos</h2>
-<p class="nota">Cada capítulo pode receber revisões e edições. O livro completo é sempre montado com a última versão aprovada de cada capítulo.</p>
+<p class="nota">Cada capítulo pode receber revisões e edições. {'Os demais artigos serão abertos aos poucos.' if meta.get('sem_completo') else 'O livro completo é sempre montado com a última versão aprovada de cada capítulo.'}</p>
 <ol class="capitulos">{''.join(linhas)}</ol>
 </section>{secao_mandala(pasta, dest)}"""
         (dest / "index.html").write_text(
